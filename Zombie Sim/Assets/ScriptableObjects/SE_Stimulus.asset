@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8896b175f535b418d1d87e97187c04, type: 3}
+  m_Name: SE_Stimulus
+  m_EditorClassIdentifier: 
+  audioClipPool:
+  - {fileID: 8300000, guid: fc9fb49f2ca8b5e4e87f3773b85c0dfd, type: 3}
+  - {fileID: 8300000, guid: bab05ddde879963408fe9d3c2b42b2dd, type: 3}
+  - {fileID: 8300000, guid: 78116b977510c9043bcd6adb3fe2e06b, type: 3}
+  - {fileID: 8300000, guid: 74bba076dd196a44ea58993956d5f0d6, type: 3}
+  - {fileID: 8300000, guid: 9ea0ce93a625c4d479a125715a9072b8, type: 3}
+  - {fileID: 8300000, guid: 4744285ae9697034daa5c4d73aef3a5a, type: 3}
+  - {fileID: 8300000, guid: 67a84b28686212e4389010deeb87c6af, type: 3}
+  - {fileID: 8300000, guid: 536dc2e7a9505824abcdabea8c0c50ee, type: 3}
+  loop: 0
+  baseVolume: 0.7
+  volumeVariation:
+    min: -0.1
+    max: 0.1
+  basePitch: 0.75
+  pitchVariation:
+    min: -0.25
+    max: 0.25
+  priority: 0
+  maxPlayingSimultaneously: 3
+  cooldown: 0
